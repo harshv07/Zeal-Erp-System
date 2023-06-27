@@ -1,0 +1,322 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.login {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 999;
+  /* background-color: aqua; */
+  width: 98%;
+  /* border: 2px solid red; */
+
+}
+
+.btn {
+  text-align: center;
+
+  margin: 18px;
+  padding: 5px 20px;
+  /* border:2px solid brown; */
+  border-radius: 25px;
+  background-color: #FF5959;
+  border: 3px solid #FF5959;
+  text-decoration: none;
+  color: white;
+  width: 60px;
+  /* height: 15px; */
+  font-weight: bolder;
+  font-size: 18px;
+  transition: 0.8s ease;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #FF5959;
+  font-weight: bolder;
+}
+
+.absolute-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background: url("./zeal-img.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title>h1 {
+  color: #fff;
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fog {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+}
+
+.fog-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fog-img {
+  position: absolute;
+  height: 100vh;
+  width: 300vw;
+  z-index: 2;
+}
+
+.fog-img-first {
+  background: url("./fog-1.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  animation: marquee 60s linear infinite;
+  opacity: 1;
+}
+
+.fog-img-second {
+  background: url("./fog-2.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  animation: marquee 30s linear infinite;
+  opacity: 1;
+}
+
+.fog-img-third {
+  background: url("./fog3.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  animation: marquee 30s linear infinite;
+  opacity: 1;
+}
+
+.fog-img-fourth {
+  background: url("./fog4.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  animation: marquee 30s linear infinite;
+  opacity: 1;
+}
+
+.fog-img-fifth {
+  background: url("./clouds.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  animation: marquee 30s linear infinite;
+  opacity: 1;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-200vw, 0, 0);
+  }
+}
+
+/* _________________________________________________________________________________- */
+/* .cards-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ z-index: 2;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: aquamarine;
+  
+  
+}
+
+.container .box{
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.container .box .imgbx{
+  position: absolute;
+  
+
+transform-style: preserve-3d;
+  top: 0;
+  border-radius: 25px;
+  left: 0;
+}
+
+.container .box .contentBx{
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #FF5959;
+  z-index: 999;
+  border-radius: 25px;
+}
+*/
+
+
+/* .container{
+  width: 100%;
+  height: 100%;
+} */
+
+
+/* ________________________________________________________________________ */
+
+.card-section {
+  background-color: orange;
+}
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 50px auto;
+  width: 300px;
+  height: 400px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+/* .card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+} */
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+#notices {
+  background-color: #FF2E63;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.button {
+  padding: 12px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #00A8CC;
+  border: none;
+  border-radius: 10px;
+  /* box-shadow: 0 9px #999; */
+}
+
+.card_title a {
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0C7B93
+}
+
+.button:active {
+  background-color: #3e8e41;
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/
