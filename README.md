@@ -17,17 +17,13 @@ The College Management System offers the following key features:
 5. Notes Section: The system incorporates a file directory system dedicated to notes. Students can upload their own notes, categorize them by subjects or courses, and share them with others. Additionally, users have the ability to browse and download notes uploaded by their peers.
 
 6. Notice Board: The system features a real-time notice board where important announcements, events, and notices are displayed. This ensures that students and faculty members stay informed about the latest happenings in the college.
+  
+7. Payment Integration with Razorpay API: Seamless integration of the Razorpay API, allowing students to conveniently pay their fees securely through the system.
 
-7. Multiple User Accounts: The system provides seven types of user accounts with different privileges and functionalities:
-
-   - Super Admin: Has full control over the system, including the ability to create and delete any user account.
-   - Admin: Manages student class/sections, view student marksheets, create and manage user accounts, exams, grades, subjects, notice board, and system settings.
-   - Teacher: Manages their own class/section, exam records for their subjects, timetable (if assigned as a class teacher), profile, and uploads study materials.
-   - Student: Views teacher profiles, own class subjects, marks, class timetable, payments, library and book status, notice board, and manages their own profile.
 8. There are 4 types of user accounts. They include:
 
-    Administrators (Super Admin & Admin)
-    
+     Administrators (Super Admin & Admin)
+   
     - Teacher
     - Student
 
@@ -49,8 +45,6 @@ Administrators, including both Super Admin and Admin accounts, have a range of f
 - Management of student classes and sections.
 - Access to students' mark sheets for evaluation and analysis.
 - Creation, editing, and management of all user accounts and profiles.
-- Creation, editing, and management of exams and grading systems.
-- Creation, editing, and management of subjects offered in the college.
 - Management of the school's notice board, with notices conveniently visible on the calendar within the dashboard.
 - Editing system settings to customize the system to meet specific college requirements.
 - Management of payments and fees.
@@ -60,21 +54,18 @@ Administrators, including both Super Admin and Admin accounts, have a range of f
 Teachers play a crucial role in the educational process. Their functions include:
 
 - Management of their respective classes and sections.
-- Management of exam records for the subjects they teach.
-- Timetable management, particularly if assigned as a class teacher.
 - Access to their own profile, allowing them to update personal information.
 - Uploading study materials for students' reference.
-- 
+- Accessing the notice board and keeping up-to-date with school events.
+- The chat application provides faculty members with a secure means of communication, guaranteeing the privacy and authenticity of their messages while facilitating seamless interaction.
+
 &#9675; **Student**
 
 Students have access to various functions and information related to their academic journey. These include:
 
-- Viewing teacher profiles to gather information about their instructors.
-- Accessing information about the subjects in which they are enrolled.
-- Checking their own marks and class timetable.
-- Viewing payments and fee-related details.
-- Checking the availability and status of books in the library.
-- Accessing the notice board and keeping up-to-date with school events through the calendar.
+- Accessing the notice board and keeping up-to-date with school events.
+- Accessing or adding notes in notes section.
+- Students have the ability to create profiles, share updates, upload photos, connect with other users, and actively participate in interactions with their fellow peers via Social media APP.
 - Managing their own profile, updating personal information as needed.
 
 ## Installation
@@ -121,12 +112,12 @@ To set up the College Management System on your local machine, follow these step
 
 8. After seeding, you can use the following login credentials for testing:
 
-   | Account Type | Username | Email                      | Password |
-   | ------------ | -------- | -------------------------- | -------- |
-   | Super Admin  | cj       | cj@cj.com                  | cj       | 
-   | Admin        | admin    | admin@admin.com            | cj       |
-   | Teacher      | teacher  | teacher@teacher.com        | cj       |
-   | Student      | student  | student@student.com        | cj       |
+   | Account Type | First name Last Name | Email                                 | Password |
+   | ------------ | ---------------------| ------------------------------------- | -------- |
+   | Super Admin  | LEVI ACKERMAN        | superadmin@gmail.com                  |12345678  | 
+   | Admin        | gOKU VEGETA          | Students7@gmail.com                   | 12345678 |
+   | Teacher      | Eren Yeager          | user5@gmail.com                       | 12345678 |
+   | Student      | Kakashi Hatate       | Students2@gmail.com                   | 12345678 |
 
 ## Contributing
 
@@ -134,13 +125,6 @@ Contributions and suggestions for improvement are welcomed. If you would like to
 
 ## Security Vulnerabilities
 
-If you discover any security vulnerabilities within the College Management System, please contact CJ Inspired via email at cjay.pub@gmail.com. We take security seriously and will address any vulnerabilities promptly.
+If you discover any security vulnerabilities within the College Management System, please contact email at harshshingade7387203727@@gmail.com. We take security seriously and will address any vulnerabilities promptly.
 
-## Work-in-Progress
 
-Please note that some sections of the project are still in the work-in-progress stage and will be updated soon. These include:
-
-- Librarian/Accountant user pages.
-- Library Management System.
-
-We appreciate your patience as we continue to enhance these features.
