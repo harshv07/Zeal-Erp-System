@@ -27,6 +27,62 @@ The College Management System offers the following key features:
     - Teacher
     - Student
 
+## Screenshots
+
+&#9675; **Landing Page**
+
+![photo_6122876940655375343_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/0036c5a2-e810-4493-873a-b4be5778c42c)
+
+![photo_6122876940655375342_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/122e2d72-64eb-4855-8e8a-0a96cfb99d49)
+
+&#9675; **Dashboard** 
+
+- **Notice Board**
+
+![photo_6122876940655375337_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/e6e0be28-64ef-4b60-8d25-b42da0aca3ac)
+
+
+- **Users**
+
+![Dashboard 2](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/694331ee-ed88-430e-aa77-ac69f3380a5a)
+
+- **User Profile**
+
+![photo_6122876940655375340_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/c048270c-53be-4995-b2e4-842eeafca554)
+
+![photo_6122876940655375336_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/da68de23-17b5-4e2e-acc6-3676887d20f2)
+
+- **Settings**
+
+![Dashboard 1](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/3992a6aa-b59b-4af1-ad9c-35e57bee4940)
+
+![photo_6122876940655375339_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/0c391e62-4fb0-429d-b979-ef42316bc9ac)
+
+![Dashboard 3](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/3fbced3f-6607-4e4c-8393-be6c857ed21b)
+
+![Dashboard](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/a1e4cece-69bf-4d03-a51a-8ea73ecdea5b)
+
+- **Notes (File System)**
+
+![photo_6122876940655375332_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/7b756ae7-9329-44e7-853b-2768cc299ab0)
+
+![photo_6122876940655375333_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/e49964b4-a5c1-4be1-a05e-d0549fae05d7)
+
+- **Chat Application**
+
+![photo_6122876940655375334_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/1b4ebc98-36fd-48c9-a1ab-2b3f2462ed1e)
+
+![photo_6122876940655375335_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/c3435201-fd69-4c90-a87f-6a526b8c4db5)
+
+![photo_6122876940655375338_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/6dc678d1-e8ae-407e-9f83-0e7825d229ea)
+
+- **Feed (Posts App)**
+  
+![photo_6122876940655375341_y](https://github.com/Suyog5300/Zeal-Erp-System/assets/55634712/3a466cc9-85dc-4293-a551-a7c37964da81)
+
+
+
+
 ## Account Functions
 The College Management System provides different account types with specific functions and privileges to cater to various roles within the college. Here's an overview of the functions associated with each account type:
 
